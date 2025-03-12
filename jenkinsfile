@@ -9,7 +9,7 @@ pipeline {
         script {
           // Create a simple Java Hello World application
           writeFile file: 'HelloWorld.java', text: '''
-          public class HelloWorld {
+          public class HelloWorld { 
               public static void main(String[] args) {
                   System.out.println("Hello, World from Java!");
               }
